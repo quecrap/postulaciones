@@ -1,0 +1,17 @@
+# OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local build / cache
+node_modules/
+.swa/
+dist/
+build/
+

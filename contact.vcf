@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Campos Moreno;Pablo;;;
+FN:Pablo Campos Moreno
+TITLE:Ingeniero multidisciplinario de cuello gris: del diseño al desliz
+ORG:Ingeniería & Proyectos
+TEL;TYPE=CELL,VOICE:+52 000 000 0000
+EMAIL;TYPE=INTERNET,PREF:pablo.campos@ejemplo.com
+URL:https://www.linkedin.com/in/pablocampos
+NOTE:Ingeniero multidisciplinario de cuello gris: del diseño al desliz.
+REV:2026-11-10T00:00:00Z
+END:VCARD
