@@ -71,13 +71,14 @@ Azure Static Web Apps ofrece en su **Free Tier**:
 
 ### Método 1: Desde Azure Portal + GitHub (Recomendado, 2 minutos)
 
-1. Sube esta carpeta `postulaciones` a un nuevo repositorio en GitHub:
+1. Sube esta carpeta `postulaciones` a tu repositorio en GitHub (`quecrap/postulaciones`):
    ```bash
-   git init
    git add .
    git commit -m "feat: tarjeta de presentacion vcard inicial"
    git branch -M main
-   git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+   # Si aún no has creado el repo en GitHub, puedes crearlo con la CLI de GitHub:
+   gh repo create postulaciones --public --source=. --remote=origin --push
+   # O si ya lo creaste en la web de GitHub:
    git push -u origin main
    ```
 
