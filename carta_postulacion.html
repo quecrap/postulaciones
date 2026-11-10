@@ -6,7 +6,7 @@
   <style>
     @page {
       size: letter;
-      margin: 18mm 20mm 16mm 20mm;
+      margin: 16mm 18mm 14mm 18mm;
     }
 
     * {
@@ -17,8 +17,8 @@
 
     body {
       font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-      font-size: 10pt;
-      line-height: 1.48;
+      font-size: 9.8pt;
+      line-height: 1.44;
       color: #1e293b;
       background: #ffffff;
       -webkit-print-color-adjust: exact;
@@ -33,22 +33,22 @@
     /* Header */
     header {
       border-bottom: 2px solid #0284c7;
-      padding-bottom: 10px;
-      margin-bottom: 14px;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
     }
 
     .sender-name {
-      font-size: 18pt;
+      font-size: 17.5pt;
       font-weight: 700;
       color: #0f172a;
       letter-spacing: -0.02em;
     }
 
     .sender-tagline {
-      font-size: 8.8pt;
+      font-size: 8.6pt;
       color: #0284c7;
       font-weight: 600;
       margin-top: 1px;
@@ -56,7 +56,7 @@
 
     .sender-contact {
       text-align: right;
-      font-size: 8.2pt;
+      font-size: 8pt;
       color: #475569;
       line-height: 1.35;
     }
@@ -68,57 +68,57 @@
 
     /* Meta Info */
     .meta-box {
-      margin-bottom: 14px;
-      font-size: 9.5pt;
+      margin-bottom: 11px;
+      font-size: 9.2pt;
     }
 
     .meta-date {
       color: #64748b;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
       font-weight: 500;
     }
 
     .recipient-title {
       font-weight: 700;
       color: #0f172a;
-      font-size: 10.5pt;
+      font-size: 10.2pt;
     }
 
     .recipient-sub {
       color: #475569;
       font-weight: 500;
-      font-size: 9pt;
+      font-size: 8.8pt;
       margin-top: 1px;
     }
 
     .subject-line {
-      margin-top: 8px;
+      margin-top: 6px;
       font-weight: 700;
       color: #0369a1;
-      font-size: 10pt;
+      font-size: 9.8pt;
     }
 
     /* Salutation & Paragraphs */
     .salutation {
       font-weight: 600;
-      margin-bottom: 8px;
+      margin-bottom: 7px;
       color: #0f172a;
     }
 
     .letter-body p {
-      margin-bottom: 8.5px;
+      margin-bottom: 7.5px;
       text-align: justify;
       color: #334155;
     }
 
     /* Closing and QR block */
     .footer-section {
-      margin-top: 14px;
+      margin-top: 10px;
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
       border-top: 1px solid #e2e8f0;
-      padding-top: 12px;
+      padding-top: 10px;
     }
 
     .signoff {
@@ -128,17 +128,17 @@
     .signoff-closing {
       font-weight: 500;
       color: #475569;
-      margin-bottom: 18px;
+      margin-bottom: 12px;
     }
 
     .signoff-name {
-      font-size: 11pt;
+      font-size: 10.8pt;
       font-weight: 700;
       color: #0f172a;
     }
 
     .signoff-role {
-      font-size: 8.8pt;
+      font-size: 8.6pt;
       color: #0284c7;
       font-style: italic;
       margin-top: 2px;
@@ -152,19 +152,20 @@
       background: #f8fafc;
       border: 1px solid #cbd5e1;
       border-radius: 8px;
-      padding: 7px 10px;
-      max-width: 250px;
+      padding: 6px 10px;
+      max-width: 275px;
     }
 
     .qr-img {
-      width: 62px;
-      height: 62px;
+      width: 60px;
+      height: 60px;
       display: block;
       border-radius: 4px;
+      flex-shrink: 0;
     }
 
     .qr-text {
-      font-size: 7.6pt;
+      font-size: 7.4pt;
       line-height: 1.25;
       color: #475569;
     }
@@ -172,7 +173,7 @@
     .qr-text strong {
       display: block;
       color: #0f172a;
-      font-size: 8.2pt;
+      font-size: 7.8pt;
       margin-bottom: 2px;
     }
 
@@ -191,7 +192,7 @@
     <header>
       <div>
         <h1 class="sender-name">Pablo Campos Moreno</h1>
-        <div class="sender-tagline">Ingeniero multidisciplinario de cuello gris: del diseño al desliz.</div>
+        <div class="sender-tagline">Ingeniero multidisciplinario de cuello gris: ojo del diseño.</div>
       </div>
       <div class="sender-contact">
         <div>Tijuana, B.C. &bull; Frontera con San Diego</div>
@@ -206,7 +207,7 @@
       <div class="meta-date">Tijuana, B.C. &mdash; 10 de noviembre de 2026</div>
       <div class="recipient-title">Agramont International Logistics Experts</div>
       <div class="recipient-sub">Tijuana, B.C. / San Diego</div>
-      <div class="subject-line">Asunto: Postulación para Analista de Sistemas</div>
+      <div class="subject-line">Asunto: Postulación para Analista de Sistemas – Experiencia técnica, soporte y resolución en campo</div>
     </div>
 
     <!-- Letter Content -->
@@ -214,15 +215,15 @@
       <div class="salutation">Estimado equipo de Agramont International Logistics Experts,</div>
 
       <p>
-        Me dirijo a ustedes con un genuino interés en la posición de Analista de Sistemas. Desde que armé mi primera computadora en la preparatoria en los noventa hasta el día de hoy —donde desarrollo mis propios sistemas y herramientas corriendo sobre una estación actual con procesador Intel i5 de 12ª generación y 24 GB de RAM—, mi carrera ha estado guiada por una máxima muy simple: entender cómo funcionan las cosas desde la raíz para hacer que la operación nunca se detenga.
+        Me dirijo a ustedes con un genuino interés en la posición de Analista de Sistemas. Desde que tuve mi primera computadora Texas Instruments a los tres años, pasando por los noventa cuando armé mi primera computadora en la preparatoria, hasta el día de hoy —donde desarrollo mis propios sistemas y herramientas corriendo sobre un i5 de 12ª generación y 24 RAM-8V—, mi carrera ha estado guiada por algo muy simple: entender cómo funcionan las cosas desde la raíz para hacer que la operación nunca se detenga.
       </p>
 
       <p>
-        Aunque no cuento con las certificaciones tradicionales de marca, mi perfil combina lo mejor de dos mundos: la capacidad técnica para diseñar infraestructura, redes, soporte a hardware y sistemas operativos, con una profunda vocación de servicio al cliente interno. A lo largo de mi trayectoria he demostrado ser esa persona que no solo instala y repara una red de impresoras, sino que estructura bases de datos, optimiza herramientas y destraba los problemas tecnológicos de la operación diaria.
+        Aunque no cuento con las certificaciones tradicionales de marca, mi perfil combina lo mejor de dos mundos: la capacidad técnica para diseñar infraestructura, redes, soporte a hardware y sistemas operativos, con una profunda vocación de servicio al cliente interno. A lo largo de mi trayectoria he demostrado ser esa persona que no solo instala y repara una red de impresoras, sino que estructura bases de datos, optimiza hojas de cálculo complejas y destraba los problemas tecnológicos de la operación diaria.
       </p>
 
       <p>
-        Como muestra de mi capacidad para resolver problemas complejos de infraestructura y campo, ingenieré y modifiqué un cuarto frío integrando control por software en un minisplit —sin forzar el equipo— para mantener el entorno estable a 4 °C cumpliendo con las normativas de alimentos, a una fracción del costo de haber reemplazado el equipo original. A la fecha, tras más de un año y medio de operación continua, mi diseño sigue trabajando de manera impecable, uniendo la automatización digital con la realidad física del negocio.
+        Como muestra reciente de mi capacidad para resolver problemas complejos de infraestructura donde aun ni software hay, ingenié, reparé y modifiqué un cuarto frío típico para hacerlo funcionar con un minisplit de ventana sin que este se forzara o no enfriara a los 4 °C que establece la norma, integrando control por software a una fracción del costo de haber reemplazado el equipo original. A la fecha, tras un año y medio de operación continua, mi diseño sigue trabajando de manera impecable, uniendo la automatización digital con la realidad física del negocio.
       </p>
 
       <p>
@@ -230,7 +231,7 @@
       </p>
 
       <p>
-        Me entusiasma mucho la oportunidad de aportar mi experiencia en infraestructura, soporte y resolución de problemas a una empresa internacional de la talla de Agramont. Quedo a su completa disposición para platicar en entrevista y demostrar con hechos lo que puedo aportar a su departamento de TI.
+        Me entusiasma mucho la oportunidad de aportar mi experiencia y colaborar con ustedes. Soy esa persona a la que le encanta arreglar las cosas y aprender en el camino, ¿qué mejor que hacerlo con una empresa internacional de la talla de Agramont? Gracias por leerme y espero colaborar pronto con ustedes. Estoy disponible y me quedo a su completa disposición.
       </p>
     </div>
 
@@ -239,15 +240,16 @@
       <div class="signoff">
         <div class="signoff-closing">Atentamente,</div>
         <div class="signoff-name">Pablo Campos Moreno</div>
-        <div class="signoff-role">Ingeniero multidisciplinario de cuello gris: del diseño al desliz.</div>
+        <div class="signoff-role">Ingeniero multidisciplinario de cuello gris: ojo del diseño.</div>
       </div>
 
       <!-- QR vCard Code Box -->
       <div class="qr-card">
         <img class="qr-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQMAAABDsxw2AAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC3UlEQVRoge2aTZKrMAyERbFgmSNwFI5GjpajcIQsWVDoqbtloDKperMe4UXGGX/OQqUft2yz343ZMZbxNdseXx+LTc+YDStmbq7lSphxcfSn+WaDdsaGISamrTaWwjr3sNH4sljsYa1Y7LbB30asd39XxBA73dbDa17hW2FBLt7Y/7GLvxkC0BeEYj0sAzD8LTBmJA8LYoO/fsZpAeySovsN7jM9AxsYlPPXTP63sRzCfLXR/YmVxD7GjR3jzOTGYEvMZegWlHWwME2vRSNmzE1hQIMJfe/XahizT9jPvJO1DBaMRTgSZvSjQhhOfm9ElrM+GVxKhx/YrZMJb+wbZg9H2CGTO8UEar3JB1njlkqYqaDh7KwiFx8mWSGdtepIUAVrKTrslikaLiW7IW1Lgt7YD8y3XnaGv2X+hk2x1bP+L6Uw33RiDhtxw3QsTs7cpDxfBusCY4WHmMCYnvwjuzFDKwCrYMo+Ualsz8I+q+pziRbMcWNXbO/Pf9G5JlZ45nQI9vyxMhgPP1iEmNjOg3ViPAaNSyEsmzboVnSRrNXIUYWX4opk7aUwDE28Nf3QTvdL069F4I1dMFeypm9JqSIAM+wgNVb+SBksTtGtWarLB23IoORMIr4MxkrFYOtaE93pXDwyH3Yrg7FpTB73C2tr5DTl0GLvxj6xDs12aCqTUsXMt0OfboccK4OhoPHErArPawgWNPmgrvrqYMxIUpt58RvHIExicXJvsuLGPjHIMVeSSoExX8TrLpOXwti2wClavUF43n7YTc2dpRgm4UnBnsna11RcjlnarQaWg48rWo/LXBsmdXkeJ3djDZthQuVvXkiwRerNvKdgr4PhI18QuHphh9Jw2a0Y1trpzna6N9/KfiEseH3dVAjj/UJICOfTADy/SanRiviNfcP4AEXtZtOF+SLPS/VaBzsDsL3S0bXeY2kvUIphlxTdbxQT3sJOXUJvoXhjF+x34x/i+lwi9fwc+QAAAABJRU5ErkJggg==" alt="Código QR vCard Pablo Campos Moreno">
         <div class="qr-text">
-          <strong>QR vCard & Portafolio</strong>
-          Escanee con su celular para abrir mi tarjeta digital interactiva y descargar mi contacto directo.
+          <strong>(Escanea el código QR)</strong>
+          Para ver mi tarjeta de contacto digital e infraestructura en Azure:
+          <a href="https://jolly-mushroom-037b7c310.4.azurestaticapps.net">jolly-mushroom-037b7c310.4.azurestaticapps.net</a>
         </div>
       </div>
     </div>
