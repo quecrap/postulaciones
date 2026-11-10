@@ -2,7 +2,10 @@
 
 > **"Ingeniero multidisciplinario de cuello gris: del diseño al desliz."**
 
-Sitio web estático ultraligero y minimalista diseñado para servir como tarjeta de presentación digital interactiva y vCard descargable con código QR de alta resolución. Preparado para despliegue directo en **Azure Static Web Apps (Free Tier)**.
+🌐 **Sitio Web en Vivo en Azure:**  
+👉 **[https://jolly-mushroom-037b7c310.4.azurestaticapps.net](https://jolly-mushroom-037b7c310.4.azurestaticapps.net)**
+
+Sitio web estático ultraligero y minimalista diseñado para servir como tarjeta de presentación digital interactiva y vCard descargable con código QR de alta resolución. Alojado en **Azure Static Web Apps (Free Tier)** con SSL automático.
 
 ---
 
